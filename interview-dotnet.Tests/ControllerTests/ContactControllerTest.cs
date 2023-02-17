@@ -73,7 +73,7 @@ namespace interview_dotnet.Tests.ControllerTests
         }
 
         [Fact]
-        public async Task UpdloadContact_RepositoryReturnsResult_ContactDoestNotExist_ReturnsSuccess()
+        public async Task UpdloadContact_RepositoryReturnsResult_ReturnsSuccess()
         {
             //Arrange 
             var fileName = "task2-file.csv";
